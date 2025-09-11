@@ -24,14 +24,14 @@ class Jogo():
         display.set_caption(
             'Katchauw!'
         )
-        self.font_destaque = font.SysFont('comicsans', 80)
+        self.font_destaque = font.SysFont('forte', 80)
         self.imagem_inicio = pygame.image.load('images/button_inicio.png').convert_alpha()
         self.imagem_sair = pygame.image.load('images/button_sair.png').convert_alpha()
         self.botao_inicio = botao.Botao(30, 450, self.imagem_inicio, 0.8)
         self.botao_sair = botao.Botao(600, 450, self.imagem_sair, 0.8)
         self.clock = Clock ()
         self.fundo = scale(
-            load('images/space.jpg'),
+            load('images/pista.jpg'),
             self.tamanho
         )
         self.fonte = font.SysFont('comicsans', 50)
@@ -55,7 +55,7 @@ class Jogo():
                         if evento.key == K_SPACE:
                             self.jogador.atirar()
             if self.estado == 0:
-                self.superficie.fill((15, 25, 54.51))
+                self.superficie.fill((207, 14, 14))
                 titulo = self.font_destaque.render(
                     'Katchauw!', 
                     True,
@@ -93,7 +93,7 @@ class Jogo():
                 )
                 self.superficie.blit(fonte_mortes, (20, 70))
             elif self.estado ==2:
-                self.superficie.fill((202, 150, 150))
+                self.superficie.fill((207, 14, 14))
             display.update()
 
 g = Jogo()
@@ -101,5 +101,3 @@ g.rodar()
 
 pygame.quit()
 exit()
-
-#https://pixelartmaker.com/art/b26f04eb67d50bd
