@@ -8,7 +8,7 @@ class Jogador(Sprite):
         super().__init__() 
 
         self.jogo = jogo 
-        self.image = load('images/aviao.png') 
+        self.image = load('images/marquin.png') 
         self.image = pygame.transform.scale(self.image, (100, 100)) 
         self.rect = self.image.get_rect() 
         self.velocidade = 2
