@@ -8,7 +8,7 @@ class Inimigo(Sprite):
         super().__init__() 
 
         self.jogo = jogo 
-        self.image = load('images/inimigo.png') 
+        self.image = load('images/kart.png') 
         self.image = pygame.transform.scale(self.image, (80, 80)) 
         self.rect = self.image.get_rect( 
             center=(self.jogo.tamanho[0], randint(20, 580)) 
