@@ -98,7 +98,7 @@ Ficarei feliz em receber contribuições! Você pode ajudar com:
 
 ## Licença
 
-Este projeto foi desenvolvido com intuíto de ensinar alunos do ensino superior a programarem em Pygame, em uma oficina inistrada pelos professores Alexandre Fava e Marlow.
+Este projeto foi desenvolvido com intuíto de ensinar alunos do ensino superior a programarem em Pygame, em uma oficina inistrada pelos professores Alexandre Fava e Marlow Dieckel.
 
 # Instale as dependências
 pip install -r requirements.txt
