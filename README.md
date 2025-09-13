@@ -1,4 +1,4 @@
-# 🚘 Katchauw!
+# 🚘⛈️ Katchauw!
 
 *Katchauw!* é um jogo criado usando **Pygame** em Python. Divirta-se desviando de obstáculos, colecionando itens ou enfrentando os desafios que preparei para você!
 
